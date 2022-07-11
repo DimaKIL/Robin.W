@@ -1,7 +1,119 @@
 .header{
-    background-image: linear-gradient(
-        to right,
-        $color-black 37%,
-        $color-background 37%
-    );
-}
+    position: relative;
+    width: 100%;
+    border-bottom: 2px dashed  $color-text;
+    // background-image: linear-gradient(
+        //     to right,
+        //     $color-black 37%,
+        //     $color-background 37%
+        // );
+        
+    }
+    .header__logo::before{
+        content: '';
+        display: inline-block;  
+        background-image: url(../imeges/logo.svg.svg);
+        width: 79px;
+        height: 24px;
+    }
+    .header__nav{
+        height: 72px;
+        display: flex;
+        padding: 0 20px;
+        align-items: center;
+    }
+    .header__button{
+        display: flex;
+        position: absolute;
+        right: 20px;
+        background-color: $color-black;
+        border: none;
+        cursor: pointer;
+    }
+    .svg-menu-open,
+    .svg-menu-close{
+        fill: $color-peach;
+    }
+    .header__button .svg-menu-close{
+        display: none;
+    }
+    .header__button.is-open .svg-menu-close{
+        display: block;
+    }
+    .header__button.is-open .svg-menu-open{
+        display: none;
+    }
+    .menu-box{
+        position: absolute;
+        top: 72px;
+        right: 20px;
+        z-index: 10;
+    }
+    .header__item:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .header__item{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        border-radius: 4px;
+        border: 1px solid $color-text;
+        padding: 8px 16px;
+        text-align: center;
+        background-color: $color-black;
+
+        &:nth-child(1){
+            transform: translateX(150%);
+            transition: transform 250ms $cubic 0.001s;
+            &.is-open{
+                transform: translateX(0);
+    
+            }
+        }
+        &:nth-child(2){
+            transform: translateX(150%);
+            transition: transform 250ms $cubic 0.2s;
+            &.is-open{
+                transform: translateX(0);
+    
+            }
+        }
+        &:nth-child(3){
+            transform: translateX(150%);           
+            transition: transform 250ms $cubic 0.4s;
+            &.is-open{
+                transform: translateX(0);
+    
+            }
+
+        }
+        &:nth-child(4){
+            transform: translateX(150%);
+            transition: transform 250ms $cubic 0.6s;
+            &.is-open{
+                transform: translateX(0);
+            }
+        }
+    }
+    .box-header-info{
+        padding: 0 20px;
+        margin: 48px 0;
+    }
+    .header__tital{
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+color: $color-white;
+        margin-bottom: 16px;
+    }
+    .text-help{
+        color: $color-text;
+    }
+    .header__text{
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+
+
+color: $color-white;
+    }

@@ -4,7 +4,9 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
+  background-color: #000000;
   color: #8491A0;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -28,6 +30,148 @@ img {
 }
 
 .header {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(37%, #000000), color-stop(37%, #181823));
-  background-image: linear-gradient(to right, #000000 37%, #181823 37%);
+  position: relative;
+  width: 100%;
+  border-bottom: 2px dashed #8491A0;
+}
+
+.header__logo::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../imeges/logo.svg.svg);
+  width: 79px;
+  height: 24px;
+}
+
+.header__nav {
+  height: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 20px;
+  background-color: #000000;
+  border: none;
+  cursor: pointer;
+}
+
+.svg-menu-open,
+.svg-menu-close {
+  fill: #FBE4FF;
+}
+
+.header__button .svg-menu-close {
+  display: none;
+}
+
+.header__button.is-open .svg-menu-close {
+  display: block;
+}
+
+.header__button.is-open .svg-menu-open {
+  display: none;
+}
+
+.menu-box {
+  position: absolute;
+  top: 72px;
+  right: 20px;
+  z-index: 10;
+}
+
+.header__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.header__item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  border-radius: 4px;
+  border: 1px solid #8491A0;
+  padding: 8px 16px;
+  text-align: center;
+  background-color: #000000;
+}
+.header__item:nth-child(1) {
+  -webkit-transform: translateX(150%);
+          transform: translateX(150%);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.001s;
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.001s;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.001s;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.001s, -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.001s;
+}
+.header__item:nth-child(1).is-open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+.header__item:nth-child(2) {
+  -webkit-transform: translateX(150%);
+          transform: translateX(150%);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.2s, -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+}
+.header__item:nth-child(2).is-open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+.header__item:nth-child(3) {
+  -webkit-transform: translateX(150%);
+          transform: translateX(150%);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.4s, -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
+}
+.header__item:nth-child(3).is-open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+.header__item:nth-child(4) {
+  -webkit-transform: translateX(150%);
+          transform: translateX(150%);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.6s;
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.6s;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.6s;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.6s, -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0.6s;
+}
+.header__item:nth-child(4).is-open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.box-header-info {
+  padding: 0 20px;
+  margin: 48px 0;
+}
+
+.header__tital {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.text-help {
+  color: #8491A0;
+}
+
+.header__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

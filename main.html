@@ -22,20 +22,29 @@
   </head>
   <body>
   <header class="header">
+      <nav class="header__nav">
     <a class="header__logo link" href=""></a>
-
-    <nav class="header__nav">
-        <ul class="header__list list">
-            <li class="header__item">Experience</li>
-            <li class="header__item">Work</li>
-            <li class="header__item">Photography</li>
-            <li class="header__item">Contact</li>
-        </ul>
+     <div class="menu-box">
+         <ul class="header__list list">
+                 <li class="header__item" data-menu>Experience</li>
+                 <li class="header__item" data-menuf>Work</li>
+                 <li class="header__item" data-menur>Photography</li>
+                 <li class="header__item" data-menue>Contact</li>
+             </ul>
+     </div>
+        <button class="header__button" type="button" aria-expanded="false" data-menu-button>
+            <svg class="svg-menu" width="40" height="40">
+               <use class="svg-menu-open" href="./imeges/icon.svg#menu" ></use>
+               <use class="svg-menu-close" href="./imeges/icon.svg#close"></use>
+            </svg>
+        </button>
     </nav>
-    <img class="header__img" src="" alt="">
-    <h1 class="header__tital">I’m Robin Williams. A Product Designer <span class="text-help">based in Italy.</span></h1>
-    <p class="header__text">I’m probably the most passionate designer you will ever get to work with. If you have a great project that needs some amazing skills, I’m your guy.</p>
-  </header>
+    <img class="header__img" src="./imeges/header.jpg" alt="Robin" width="360" height="288">
+    <div class="box-header-info">
+        <h1 class="header__tital">I’m Robin Williams. A Product Designer <span class="text-help">based in Italy.</span></h1>
+        <p class="header__text">I’m probably the most passionate designer you will ever get to work with. If you have a great project that needs some amazing skills, I’m your guy.</p>
+    </div>
+   </header>
   <main>
       <section class="experience">
             <div class="conteiner">
@@ -372,4 +381,6 @@
         </div>
     </div>
   </footer>
+  <script src="./js/menu.js"></script>
 </body>
+</html>
