@@ -24,5 +24,11 @@ border-bottom: 1px solid $color-text;
 color: $color-background;
 }
 @media screen and (min-width: 361px) and (max-width: 767px) {
+    .about-me__box{
+        display: flex;
+        justify-content: center;
+        background-color: $color-violet;
+        padding-bottom: 15px;
+    }
 
   }

@@ -25,5 +25,11 @@ border-bottom: 1px solid $color-text;
 
 }
 @media screen and (min-width: 361px) and (max-width: 767px) {
+    .instagram__img-box{
+        display: flex;
+        justify-content: center;
+        background-color: $color-peach;
+        padding-bottom: 15px;
+    }
 
 }

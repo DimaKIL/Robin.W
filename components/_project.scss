@@ -39,5 +39,9 @@ font-size: 18px;
 line-height: 150%;
 }
 @media screen and (min-width: 361px) and (max-width: 767px) {
+    .project__item{
+        margin: 0 auto;
+       width: 320px;
+    }
 
 }

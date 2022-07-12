@@ -282,6 +282,18 @@ img {
   color: #181823;
 }
 
+@media screen and (min-width: 361px) and (max-width: 767px) {
+  .about-me__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #FFF3E4;
+    padding-bottom: 15px;
+  }
+}
 .skillset {
   padding: 78px 20px 64px 20px;
 }
@@ -399,6 +411,12 @@ img {
   line-height: 150%;
 }
 
+@media screen and (min-width: 361px) and (max-width: 767px) {
+  .project__item {
+    margin: 0 auto;
+    width: 320px;
+  }
+}
 .instagram__info {
   padding: 48px 20px 48px 20px;
   background-color: #FBE4FF;
@@ -428,6 +446,18 @@ img {
   border-bottom: 1px solid #8491A0;
 }
 
+@media screen and (min-width: 361px) and (max-width: 767px) {
+  .instagram__img-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #FBE4FF;
+    padding-bottom: 15px;
+  }
+}
 .dribbble {
   padding: 64px 20px 112px 20px;
 }
@@ -460,6 +490,16 @@ img {
   margin-top: 68px;
 }
 
+@media screen and (min-width: 361px) and (max-width: 767px) {
+  .dribbble__img-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .reviews {
   padding: 0 20px;
 }
@@ -521,6 +561,15 @@ img {
   line-height: 150%;
 }
 
+@media screen and (min-width: 361px) and (max-width: 767px) {
+  .reviews__img {
+    width: 332px;
+  }
+  .reviews__item {
+    margin: 0 auto;
+    width: 332px;
+  }
+}
 .photography__tital {
   color: #FFFFFF;
   margin-bottom: 24px;
@@ -666,6 +715,12 @@ img {
   }
   .go__button {
     width: 100%;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 767px) {
+  .go__form {
+    margin: 0 auto;
+    width: 320px;
   }
 }
 .footer {
