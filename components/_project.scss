@@ -16,6 +16,25 @@ color: $color-white;
 .project__list{
     margin-top: 80px;
 }
-.project__list:not(:last-child){
+.project__button{
+    display: none;
+}
+.project__box{
+    padding: 40px 32px 40px 32px;
+    background-color: $color-background;
+}
+.project__item:not(:last-child){
     margin-bottom: 48px;
+}
+.project__tital{
+    font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+color: $color-white;
+margin-bottom: 13px;
+}
+.project__text{
+    font-weight: 400;
+font-size: 18px;
+line-height: 150%;
 }
