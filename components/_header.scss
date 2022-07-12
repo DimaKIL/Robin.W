@@ -63,7 +63,7 @@
         background-color: $color-black;
 
         &:nth-child(1){
-            transform: translateY(-1500%);
+            transform: translateY(-1510%);
             transition: transform 250ms $cubic ;
             &.is-open{
                 transform: translateY(0);
@@ -71,7 +71,7 @@
             }
         }
         &:nth-child(2){
-            transform: translateY(-1500%);
+            transform: translateY(-1510%);
             transition: transform 250ms $cubic 0.1s;
             &.is-open{
                 transform: translateY(0);
@@ -79,7 +79,7 @@
             }
         }
         &:nth-child(3){
-            transform: translateY(-1500%);           
+            transform: translateY(-1510%);           
             transition: transform 250ms $cubic 0.2s;
             &.is-open{
                 transform: translateY(0);
@@ -88,7 +88,7 @@
 
         }
         &:nth-child(4){
-            transform: translateY(-1500%);
+            transform: translateY(-1510%);
             transition: transform 250ms $cubic 0.3s;
             &.is-open{
                 transform: translateY(0);
