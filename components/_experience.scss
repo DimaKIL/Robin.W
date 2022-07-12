@@ -1,0 +1,49 @@
+.experience{
+    padding:48px 20px;
+}
+
+.experience__tital{
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+margin-bottom: 8px;
+}
+.experience__text{
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+
+color: $color-white;
+}
+.experience__job-number{
+    font-weight: 400;
+font-size: 117px;
+line-height: 141px;
+}
+.experience__work-place{
+    font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+margin-bottom: 16px;
+color: $color-white;
+}
+.experience__info{
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+}
+.google{
+    color: $color-green;
+}
+.facebook{
+    color: $color-blue;
+}
+.dribbble{
+    color: $color-pink;
+}
+.experience__item:not(:last-child){
+    margin-bottom: 48px;
+}
+.experience__item{
+    margin-top: 40px;
+}
