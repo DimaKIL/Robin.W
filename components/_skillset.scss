@@ -1,7 +1,35 @@
-.skillset__item{
-    position: relative;
+.skillset{
+    padding: 78px 20px 64px 20px;
 }
-.svg-use{
-    position: absolute;
-    left: 8px;
+.skillset__item{
+    margin-top: 69px;
+    margin-bottom: 64px;
+}
+.skillset__tital{
+    font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+color: $color-white;
+    margin-bottom: 16px;
+}
+.skillset__text{
+    font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+}
+.skillset__skill{
+    font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+color: $color-white;
+margin-top: 24px;
+}
+.skillset__info{
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-top: 12px;
+}
+.skillset__info:not(:last-child){
+    margin-bottom: 48px;
 }

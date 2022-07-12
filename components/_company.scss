@@ -1,0 +1,14 @@
+.company__list{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.company__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #181823;
+    width: 180px;
+    height:140px;
+    
+}

@@ -1,0 +1,21 @@
+.project{
+    padding: 64px 20px 70px 20px;
+}
+.project__tital{
+    font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+margin-bottom: 8px;
+}
+.project__info{
+    font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+color: $color-white;
+}
+.project__list{
+    margin-top: 80px;
+}
+.project__list:not(:last-child){
+    margin-bottom: 48px;
+}
