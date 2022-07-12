@@ -38,7 +38,7 @@ line-height: 150%;
 .facebook{
     color: $color-blue;
 }
-.dribbble{
+.d{
     color: $color-pink;
 }
 .experience__item:not(:last-child){
@@ -46,4 +46,7 @@ line-height: 150%;
 }
 .experience__item{
     margin-top: 40px;
+}
+@media screen and (min-width: 361px) and (max-width: 767px) {
+
 }

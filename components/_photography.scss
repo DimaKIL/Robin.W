@@ -36,6 +36,11 @@ background-color: $color-black;
 border: 1px solid $color-primary;
     padding: 12px 0;
    width: 148px;
+   transition: background-color 250ms $cubic;
+}
+.photography__button:hover,
+.photography__button:focus{
+    background-color: $color-primary;
 }
 .photography__list{
     margin-bottom: 48px;
@@ -46,5 +51,8 @@ border: 1px solid $color-primary;
 }
 .photography__foto:not(:last-child){
     margin-bottom: 24px;
+
+}
+@media screen and (min-width: 361px) and (max-width: 767px) {
 
 }

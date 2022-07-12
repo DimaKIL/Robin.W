@@ -1,0 +1,75 @@
+.go{
+    padding: 96px 20px 48px 20px;
+}
+.go__tital{
+    margin-bottom: 16px;
+    font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+color: $color-white;
+}
+.go__info{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+.go__text{
+    margin-bottom: 48px;
+}
+.go__list{
+
+}
+.go__item{
+}
+.go__label{
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: $color-white;
+margin-bottom: 8px;
+}
+.go__input{
+    width: 320px;
+    height: 50px;
+    padding: 5px 15px;
+    background-color: $color-background;
+    border: none;
+    color: $color-white;
+    margin-bottom: 40px;
+}
+.go__textarea{
+    width: 320px;
+    height: 100px;
+    padding: 5px 15px;
+    border: none;
+    background-color: $color-background;
+    color: $color-white;
+    margin-bottom: 40px;
+}
+.go__button{
+    font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+color: $color-white;
+    margin: 0 auto;
+    width: 320px;
+    padding: 24px 73px;
+    background-color: $color-primary;
+    border: none;
+    margin-bottom: 48px;
+
+}
+@media screen and (max-width: 359px) {
+    .go__input{
+        width: 100%;
+    }
+    .go__textarea{
+        width: 100%;
+    }
+    .go__button{
+        width: 100%;
+    }
+  }
+  @media screen and (min-width: 361px) and (max-width: 767px) {
+
+}
