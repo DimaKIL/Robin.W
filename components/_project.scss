@@ -83,3 +83,21 @@ line-height: 66px;
 
 
 }
+@media screen and (min-width: 1440px){
+    .project{
+        padding: 120px 72px 153px 72px;
+    }
+    .project-box-help{
+        width: 572px;
+    }
+    .project__item{
+        width: 636px;
+    }
+    .project__box{
+        width: 636px;
+    }
+    .project__list{
+        justify-content: start;
+    }
+
+}

@@ -67,3 +67,19 @@ line-height: 66px;
     }
 
 }
+@media screen and (min-width: 1440px){
+    .experience{
+        padding: 120px 72px;
+    }
+    .expi-box{
+        width: 690px;
+    }
+    .experience__item{
+        width: 368px;
+    }
+    .experience__item:not(:last-child){
+        margin-right: 72px;
+    }
+
+
+}

@@ -27,3 +27,12 @@ h1, h2, h3, h4, h5, h6, p{
   @media screen and (min-width: 361px) and (max-width: 767px) {
 
   }
+  @media screen and (min-width: 1440px){
+    .conteiner{
+      width: 1440px;
+    }
+    body{
+      width: 1440px;
+    }
+
+  }

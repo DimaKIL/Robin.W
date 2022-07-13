@@ -62,3 +62,19 @@ line-height: 66px;
     }
 
 }
+@media screen and (min-width: 1440px){
+    .skillset{
+        padding: 120px 72px;
+    }
+    .skillset__box-tital{
+        width: 368px;
+        margin-right: 72px;
+    }
+    .skillset__item{
+        width: 368px;
+    }
+    .skillset__box-info{
+        width: 808px;
+    }
+
+}

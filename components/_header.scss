@@ -133,6 +133,9 @@ line-height: 150%;
 
 color: $color-white;
     }
+    .header__img3{
+        display: none;
+    }
     .menu-box-alt{
         display: none;
     }
@@ -209,4 +212,41 @@ line-height: 67px;
         .header-menu-button-alt:focus{
             background-color: $color-primary;
         }
+        .header__img3{
+            display: none;
+        }
+    }
+    @media screen and (min-width: 1440px){
+        .header__nav{
+            padding: 0 72px;
+        }
+        .header__tital{
+            width: 738px;
+            top: 141px;
+        }
+        .box-header__text{
+            width: 738px ;
+            top: 385px;
+        }
+        .header__img2{
+            display: none;
+        }
+        .header__img3{
+            display: block;
+            // padding-bottom: 72px;
+        }
+        .header{
+            height: 900px;
+            border-bottom: 2px dashed  $color-text;
+            background-image: linear-gradient(
+                to right,
+                $color-black 37%,
+                $color-background 37%
+            );
+
+        }
+        .header-menu-button-alt{
+            background-color: $color-background;
+        }
+
     }
