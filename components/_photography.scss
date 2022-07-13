@@ -56,3 +56,32 @@ border: 1px solid $color-primary;
 @media screen and (min-width: 361px) and (max-width: 767px) {
 
 }
+@media screen and (min-width: 768px){
+    .photography{
+        padding: 0 40px 160px 40px;
+    }
+    .help{
+        font-weight: 700;
+font-size: 55px;
+line-height: 66px;
+    }
+    .photography__text{
+        margin-bottom: 64px;
+    }
+    .photography__img{
+        width: 332px;
+        height: 420px;
+    }
+
+    .photography__album{
+        margin: 0 auto;
+        width: 688px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .photography__foto:not(:last-child){
+        margin-bottom: 0px;
+    }
+
+}

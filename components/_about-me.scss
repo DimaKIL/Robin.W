@@ -9,6 +9,10 @@ line-height: 38px;
 color: $color-black;
 margin-bottom: 24px;
 }
+.about-me__img{
+    width: 360;
+    height: 450px;
+}
 .about-me__text{
     font-weight: 400;
 font-size: 18px;
@@ -30,5 +34,29 @@ color: $color-background;
         background-color: $color-violet;
         padding-bottom: 15px;
     }
-
+  }
+  @media screen and (min-width: 768px){
+    .about-me{
+        display: flex;
+        justify-content: center;
+    }
+     .about-me__info{
+        width: 384px;
+        padding: 80px 40px;
+     }
+     .about-me__img{
+        width: 384px;
+        height: 600px;
+     }
+     .tt{
+        display: flex;
+     }
+     .about-me__tital{
+        font-weight: 700;
+font-size: 55px;
+line-height: 66px
+     }
+     .about-me__text{
+        margin-bottom: 67px;
+     }
   }

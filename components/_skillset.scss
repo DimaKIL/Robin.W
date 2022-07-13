@@ -36,3 +36,29 @@ margin-top: 12px;
 @media screen and (min-width: 361px) and (max-width: 767px) {
 
 }
+@media screen and (min-width: 768px){
+    .skillset{
+        padding: 80px 40px;
+    }
+    .skillset__tital{
+        font-weight: 700;
+font-size: 55px;
+line-height: 66px;
+        margin-bottom: 24px;
+    }
+    .skillset__text{
+        margin-bottom: 48px;
+    }
+    .skillset__list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .skillset__item{
+        margin: 0 auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 284px;
+    }
+
+}

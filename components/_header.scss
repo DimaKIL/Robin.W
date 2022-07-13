@@ -1,6 +1,6 @@
 .header{
     position: relative;
-    width: 100%;
+    // width: 100%;
     border-bottom: 2px dashed  $color-text;
     // background-image: linear-gradient(
         //     to right,
@@ -11,6 +11,9 @@
     }
     .header__img{
         width: 360px;
+    }
+    .header__img2{
+        display: none;
     }
     .header__logo::before{
         content: '';
@@ -130,11 +133,80 @@ line-height: 150%;
 
 color: $color-white;
     }
+    .menu-box-alt{
+        display: none;
+    }
     @media screen and (max-width: 359px) {
         .header__img {
           width: 100%;
         }
       }
-      @media screen and (min-width: 361px) and (max-width: 767px) {
-
+      @media screen and (min-width: 768px){
+        .menu-box-alt{
+            display: inline;
+        }
+        .menu-box{
+            display: none;
+        }
+        .header__button{
+            display: none;
+        }
+        .header__nav{
+            padding: 0 40px;
+        }
+        .header__list-alt{
+            display: flex;
+            position: absolute;
+            right: 40px;
+            top: 0;
+        }
+        .header-menu-button-alt{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            padding: 32px 24px;
+            border: none;
+            color: $color-white;
+            background-color: $color-black;
+            transition: background-color 250ms $cubic;
+        }
+        .header__img{
+            display: none;
+        }
+        .header__img2{
+            display: block;
+        }
+        .box-header-info{
+            position: relative;
+            padding: 0 0;
+            margin: 68px 0 164px 0 ;
+        }
+        .header__tital{
+            font-weight: 700;
+font-size: 56px;
+line-height: 67px;
+            width: 408px;
+            position: absolute;
+            right: 40px;
+            top: 68px;
+        }
+        .header__text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+        }
+        .box-header__text{
+            width: 408px;
+         position: absolute;
+         top: 435px;
+         right: 40px;
+        }
+        .header{
+            border: none;
+        }
+        .header-menu-button-alt:hover,
+        .header-menu-button-alt:focus{
+            background-color: $color-primary;
+        }
     }

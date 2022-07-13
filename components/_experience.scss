@@ -50,3 +50,20 @@ line-height: 150%;
 @media screen and (min-width: 361px) and (max-width: 767px) {
 
 }
+@media screen and (min-width: 768px){
+    .experience{
+        padding: 0 40px 80px 40px;
+    }
+    .experience__text{
+        font-weight: 700;
+font-size: 55px;
+line-height: 66px;
+    }
+    .experience__list{
+        display: flex;
+    }
+    .experience__item:not(:last-child){
+        margin-right: 40px;
+    }
+
+}

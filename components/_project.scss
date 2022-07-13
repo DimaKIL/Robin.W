@@ -1,11 +1,19 @@
 .project{
     padding: 64px 20px 70px 20px;
 }
+.project__img{
+    width: 320px;
+    height: 400px;
+}
 .project__tital{
     font-weight: 700;
-font-size: 16px;
-line-height: 150%;
+    font-size: 16px;
+    line-height: 150%;
+    color: $color-text;
 margin-bottom: 8px;
+}
+.project__img2{
+    display: none;
 }
 .project__info{
     font-weight: 700;
@@ -43,5 +51,35 @@ line-height: 150%;
         margin: 0 auto;
        width: 320px;
     }
+
+}
+@media screen and (min-width: 768px){
+    .project{
+        padding: 80px 40px;
+    }
+    .project__info{
+        font-weight: 700;
+font-size: 55px;
+line-height: 66px;
+    }
+    .project__img{
+        display: none;
+    }
+    .project__img2{
+        display: block;
+    }
+    .project__item{
+        width: 688;
+    }
+    .project__box{
+        width: 688px;
+    }
+    .project__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
 
 }

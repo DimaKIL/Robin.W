@@ -60,3 +60,28 @@ line-height: 150%;
     }
 
 }
+@media screen and (min-width: 768px){
+    .reviews{
+        display: flex;
+        justify-content: center;
+        padding: 0 40px 160px 40px;
+    }
+    .reviews__list{
+        width: 332px;
+        margin: 0 0;
+    }
+    .reviews__tital{
+        font-weight: 700;
+font-size: 55px;
+line-height: 66px;
+margin-bottom: 24px;
+    }
+    .reviews__info{
+        margin-right: 24px;
+    }
+    .reviews__text{
+        width: 332px;
+    }
+
+    
+}

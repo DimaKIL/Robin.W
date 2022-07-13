@@ -34,3 +34,18 @@ color: $color-white;
 @media screen and (min-width: 361px) and (max-width: 767px) {
 
 }
+@media screen and (min-width: 768px){
+    .footer{
+        position: relative;
+        padding: 80px 40px 56px 40px;
+    }
+    .footer-box__lists{
+        display: flex;   
+        position: absolute;
+        right: 0;
+    }
+    .footer__info{
+        margin-top: 48px;
+    }
+
+}
