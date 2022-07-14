@@ -24,6 +24,9 @@ color: $color-background;
 border-bottom: 1px solid $color-text;
 
 }
+.instagram__img2{
+    display: none;
+}
 @media screen and (min-width: 361px) and (max-width: 767px) {
     .instagram__img-box{
         display: flex;
@@ -49,5 +52,19 @@ border-bottom: 1px solid $color-text;
 
 }
 @media screen and (min-width: 1440px){
+    .instagram__info{
+        padding: 120px 72px;
+        width: 720px;
+    }
+    .instagram__img{
+        display: none;
+    }
+    .instagram__img2{
+        display: block;
+    }
+    .instagram__img-box{
+        width: 720px;
+        height: 600px;
+    }
 
 }

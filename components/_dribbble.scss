@@ -1,6 +1,9 @@
 .dribbble{
     padding: 64px 20px 112px 20px;
 }
+.dribbble__img3{
+    display: none;
+}
 .dribbble__img2{
     display: none;
 }
@@ -48,5 +51,15 @@ border-bottom: 1px solid $color-text;
     }
 }
 @media screen and (min-width: 1440px){
+    .dribbble{
+        padding: 120px 182px 240px 182px;
+    }
+    .dribbble__img2{
+        display: none;
+    }
+    .dribbble__img3{
+        display: block;
+        margin-top: 120px;
+    }
 
 }

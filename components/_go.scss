@@ -99,5 +99,20 @@ line-height: 38px;
 
 }
 @media screen and (min-width: 1440px){
+    .go{
+        padding: 0 182px 120px 182px;
+    }
+    .go__text{
+        width: 526px;
+    }
+    .go__input{
+        width: 526px;
+    }
+    .go__textarea{
+        width: 526px;
+    }
+    .go__button{
+        width: 526px;
+    }
 
 }

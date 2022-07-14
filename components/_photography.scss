@@ -86,5 +86,27 @@ line-height: 66px;
 
 }
 @media screen and (min-width: 1440px){
+    .photography{
+        padding: 0 72px 240px 72px;
+    }
+    .photography__text{
+        width: 588px;
+    }
+    .photography__list{
+        justify-content: start;
+    }
+    .photography__img{
+        width: 306px;
+    }
+    .photography__album{
+        justify-content: start;
+        width: 1296px;
+        margin: 0 0;
+        gap: 0;
+    }
+    .photography__foto:not(:last-child){
+        margin-right: 24px;
 
+    }
+    
 }

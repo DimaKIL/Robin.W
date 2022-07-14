@@ -50,6 +50,9 @@ margin-bottom: 4px;
 font-size: 18px;
 line-height: 150%;
 }
+.reviews__img2{
+    display: none;
+}
 @media screen and (min-width: 361px) and (max-width: 767px) {
     .reviews__img{
         width: 332px;
@@ -86,5 +89,28 @@ margin-bottom: 24px;
     
 }
 @media screen and (min-width: 1440px){
+    .reviews{
+        padding: 0 72px 240px 72px;
+    }
+    .reviews__img{
+        display: none;
+    }
+    .reviews__img2{
+        display: block;
+    }
+    .reviews__item{
+        width: 636px;
+        padding: 64px auto;
+    }
+    .reviews__response{
+        width: 508px;
+    }
+    .reviews__text{
+        width: 588px;
+        margin-right: 72px;
+    }
+    .reviews__item:not(:last-child){
+        margin-bottom: 120px;
+    }
 
 }

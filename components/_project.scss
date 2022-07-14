@@ -1,6 +1,14 @@
 .project{
     padding: 64px 20px 70px 20px;
 }
+.project__span{
+    font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+
+color: #8491A0;
+
+}
 .project__img{
     width: 320px;
     height: 400px;
@@ -85,12 +93,16 @@ line-height: 66px;
 }
 @media screen and (min-width: 1440px){
     .project{
+        position: relative;
+        height: 2021px;
         padding: 120px 72px 153px 72px;
+        margin-bottom: 100px;
     }
     .project-box-help{
         width: 572px;
     }
     .project__item{
+        position: absolute;
         width: 636px;
     }
     .project__box{
@@ -98,6 +110,42 @@ line-height: 66px;
     }
     .project__list{
         justify-content: start;
+    }
+    .project__item:nth-child(1){
+
+
+    }
+    .project__item:nth-child(2){
+        left: 732px;
+        top: 120px;
+    }
+    .project__item:nth-child(3){
+        top: 1200px;
+        left: 72px;
+        
+    }
+    .project__item:nth-child(4){
+        left: 732px;
+        top: 944px;
+        
+    }
+    .project__button{
+        font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+color: $color-white;
+border: 1px solid $color-primary;
+padding: 18px;
+background-color: $color-black;
+        display: block;
+        position: absolute;
+        left: 977px;
+        top: 1800px;
+        transition: background-color 250ms $cubic;
+    }
+    .project__button:hover,
+    .project__button:focus{
+       background-color: $color-primary;
     }
 
 }
