@@ -89,6 +89,21 @@ margin-bottom: 24px;
     
 }
 @media screen and (min-width: 1440px){
+    .reviews__examples{
+        width: 636px;
+    }
+    .reviews__list{
+        width: 636px;
+    }
+    .gg{
+        width: 1286px;
+    }
+    .conteiner-rav{
+        width: 1440px;
+        display: flex;
+        justify-content: center;
+
+    }
     .reviews{
         padding: 0 72px 240px 72px;
     }
