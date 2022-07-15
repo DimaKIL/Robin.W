@@ -173,6 +173,7 @@ color: $color-white;
             background-color: $color-black;
             transition: background-color 250ms $cubic;
         }
+
         .header__img{
             display: none;
         }
@@ -215,6 +216,10 @@ line-height: 67px;
         .header__img3{
             display: none;
         }
+        .header__img2{
+            display: block;
+        }
+
     }
     @media screen and (min-width: 1440px){
         .header__nav{

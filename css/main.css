@@ -255,9 +255,6 @@ img {
   .header__img {
     display: none;
   }
-  .header__img2 {
-    display: block;
-  }
   .box-header-info {
     position: relative;
     padding: 0 0;
@@ -293,6 +290,9 @@ img {
   }
   .header__img3 {
     display: none;
+  }
+  .header__img2 {
+    display: block;
   }
 }
 @media screen and (min-width: 1440px) {
