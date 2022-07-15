@@ -594,6 +594,11 @@ img {
   .skillset__box-info {
     width: 808px;
   }
+  .t {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 .company__list {
   -webkit-box-pack: center;

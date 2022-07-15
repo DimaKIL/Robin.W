@@ -61,6 +61,7 @@ line-height: 66px;
         width: 284px;
     }
 
+
 }
 @media screen and (min-width: 1440px){
     .skillset{
@@ -75,6 +76,9 @@ line-height: 66px;
     }
     .skillset__box-info{
         width: 808px;
+    }
+    .t{
+        display: flex;
     }
 
 }
